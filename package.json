@@ -1,0 +1,28 @@
+{
+  "name": "gitzo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juhani Pelli <juhani.pelli@gmail.com> (https://github.com/unkhz/)",
+  "license": "ISC",
+  "bin": {
+    "gitzo": "index.js"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.8.0",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
+    "eslint": "^2.10.1"
+  },
+  "dependencies": {
+    "babel-register": "^6.8.0",
+    "commander": "^2.9.0",
+    "elasticsearch": "^11.0.1",
+    "nodegit": "^0.13.0"
+  }
+}
